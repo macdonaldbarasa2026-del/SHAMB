@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "./styles/stars.css";
+@import "./styles/lumina.css";
+
+@theme {
+  --color-bg: #090a0f;
+  --color-surface: #12151d;
+  --color-fg: #f4f4f5;
+  --color-muted: #9aa0ab;
+  --color-primary: #d8dce4;
+  --color-border: rgba(255, 255, 255, 0.18);
+  --color-accent: #ad5fff;
+  --radius: 0.75rem;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    background: #090a0f;
+    color: #f4f4f5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: #090a0f;
+    color: #f4f4f5;
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+}

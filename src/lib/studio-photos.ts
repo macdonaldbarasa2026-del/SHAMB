@@ -1,0 +1,133 @@
+import type { Photo } from "./types";
+
+export const STUDIO_PHOTOS: Photo[] = [
+  {
+    id: "studio-01",
+    prompt: "Rain-soaked Tokyo alley, neon kanji on wet asphalt",
+    src: "/samples/01.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-02",
+    prompt: "Aerial Sahara dunes at golden hour",
+    src: "/samples/02.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-03",
+    prompt: "Candlelit portrait, gold earrings, 85mm",
+    src: "/samples/03.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-04",
+    prompt: "Iceland black sand beach, crashing wave",
+    src: "/samples/04.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-05",
+    prompt: "Astronaut EVA, Earth in a gold visor",
+    src: "/samples/05.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-06",
+    prompt: "Aurora over a snow cabin and pines",
+    src: "/samples/06.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-07",
+    prompt: "Brutalist staircase, a shaft of afternoon sun",
+    src: "/samples/07.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-08",
+    prompt: "Macro peony with dew, creamy bokeh",
+    src: "/samples/08.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-09",
+    prompt: "Cherry-red convertible on a Havana street at dusk",
+    src: "/samples/09.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+  {
+    id: "studio-10",
+    prompt: "Dutch still life of figs, grapes, pewter",
+    src: "/samples/10.jpg",
+    createdAt: 0,
+    aspectRatio: "2:3",
+    resolution: "2k",
+    origin: "studio",
+    kind: "photo",
+  },
+];
+
+export const PHOTO_CHIPS = [
+  "Tokyo rain at night, neon on wet streets",
+  "Candlelit portrait, 85mm, film grain",
+  "Earth from orbit, visor reflection",
+  "Black sand beach, storm light",
+];
+
+export const VIDEO_CHIPS = [
+  "Slow cinematic push-in through the scene",
+  "Gentle wind, hair and fabric moving",
+  "Camera drifts past, light shifting",
+  "Hold, then a quiet pan to the horizon",
+];
+
+export const PROMPT_CHIPS = PHOTO_CHIPS;
+
+export const CARD_TINTS = [
+  "142, 249, 252",
+  "142, 252, 204",
+  "142, 252, 157",
+  "215, 252, 142",
+  "252, 252, 142",
+  "252, 208, 142",
+  "252, 142, 142",
+  "252, 142, 239",
+  "204, 142, 252",
+  "142, 202, 252",
+];

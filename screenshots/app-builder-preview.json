@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Loading http://127.0.0.1:8080/",
+      "hasCanvas": false,
+      "bodyTextLen": 239,
+      "bodyTextHash": "a9259215bcd0a872f5f23c6b2fa84a9ee6c7ece78d2912b3dfdb434d2ddd7c54",
+      "bodyTextPrefix": "Lumina Photo · video · cloud studio Photograph prompt PhotoVideo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lumina",
+      "hasCanvas": false,
+      "bodyTextLen": 246,
+      "bodyTextHash": "34a6019efb5c0f77ae5303decd83eb9e64f7fe5ec41792bd5b2082f72059cbef",
+      "bodyTextPrefix": "LUMINA Photo · video · cloud studio Photograph prompt PHOTO VIDE",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n      <SafeFragment>\n        <SafeFragment fallback={null}>\n          <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n            <SafeFragment fallback={function fallback}>\n              <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n                <Lazy>\n                  <Home>\n                    <LuminaApp>\n                      <div className=\"page-root\">\n                        <div>\n                        <div>\n                        <div>\n                        <AccountChip>\n                        <div className=\"center-stack\">\n                          <div>\n                          <form className=\"prompt-field\" onSubmit={function onSubmit}>\n                            <PromptComposer prompt=\"\" onPrompt={function bound dispatchSetState} mode=\"photo\" ...>\n                              <div className=\"composer\">\n                                <label>\n                                <textarea\n                                  id=\"prompt\"\n                                  name=\"prompt\"\n                                  rows={3}\n                                  maxLength={2500}\n                                  placeholder=\"Describe the photograph…\"\n                                  value=\"\"\n                                  onChange={function onChange}\n                                  onKeyDown={function onKeyDown}\n                                  disabled={false}\n-                                 style={{caret-color:\"transparent\"}}\n                                >\n                                <div className=\"composer-bar\">\n                                  <input\n                                    ref={{current:null}}\n                                    type=\"file\"\n                                    accept=\"image/jpeg,image/png,image/webp,image/gif\"\n                                    className=\"sr-only\"\n                                    onChange={function onChange}\n-                                   style={{caret-color:\"transparent\"}}\n                                  >\n                                  ...\n                            ...\n                        ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
